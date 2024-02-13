@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <img class="fondo" src="imagenes/encriptador.jpg">
+    <header>
+        <div class="encabezado">
+            <img class="logo" src="imagenes/Logo.png" alt="logo alura">
+            <h1>- Encriptador Challenge ONE - </h1>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="contenedor">
+
+            <div class="cajaingreso">
+                    <h2 class="titulomensaje">Mensaje</h2>
+                    <textarea class="ingreso" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+
+            <div class="button">
+                <input class="encriptar" type="submit" value="Encriptar">
+                <input class="desencriptar" type="submit" value="Desencriptar">
+                <input class="copiar" type="submit" value="Copiar">
+                <input class="pegar" type="submit" value="Pegar">
+            </div>
+
+            <div class="cajaresultado">
+                <h2 class="tituloresultado">Resultado</h2>
+                <textarea type="text" id="resultado" class="resultado" readonly></textarea>
+            </div>
+
+            
+        </section>
+
+        <div class="seccionalerta">
+            <img class="imgalerta" src="imagenes/alert.png">
+            <p class="advertencia">Texto en minusculas y sin acentos</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <img class="logofooter" src="imagenes/logofooter.png" alt="logo alura">
+        <p>Desarrollado por Raquel Rodriguez Herlein</p>
+        <p>2024</p>
+    </footer>
+</body>
+
+
+
+</html>

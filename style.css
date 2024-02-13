@@ -1,0 +1,190 @@
+*{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.fondo{
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+header{
+    width: 100%;
+    height: 15%;
+}
+
+main {
+    height: 70%;
+}
+
+.encabezado {
+    position: relative;
+    background-color: rgba(192, 208, 255, 0.5);
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo {
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+
+.titulomensaje,
+.tituloresultado {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.contenedor {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.cajaingreso, .cajaresultado {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:40%;
+    height: 70%;
+    margin: auto;
+    gap: 15px;
+}
+
+.cajaingreso{
+    align-items: flex-end;
+}
+
+.cajaresultado{
+    align-items:flex-start ;
+}
+
+.ingreso,
+.resultado {
+    resize: none;
+    width:40%;
+    height: 70%;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.ingreso:hover, .resultado:hover {
+    border-color: rgb(0, 119, 255);
+   
+}
+
+.button {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+    gap: 20px;
+    width:20%;
+    height: 70%;
+}
+
+.encriptar,
+.desencriptar {
+    width:50%;
+    padding: 2% 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.copiar, .pegar {
+    padding: 2% 0;
+    width:50%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(0, 0, 66);
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.copiar{
+    margin-top: 30%;
+}
+
+.encriptar:hover,
+.desencriptar:hover,
+.copiar:hover, .pegar:hover {
+    background: rgb(149, 151, 252);
+    transform: scale(1.2);
+}
+
+.seccionalerta {
+    position:relative;
+    top: -25%;
+    left: 25%;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-style: italic;
+    background: #141275;
+    width: 250px;
+    flex-direction: row;
+    padding: 10px 10px;
+}
+
+.imgalerta {
+    width: 10%;
+    height: 10%;
+}
+
+footer {
+   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    background: rgb(19, 46, 130, 0.5);
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.logofooter {
+    padding: 20px;
+}
