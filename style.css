@@ -146,7 +146,7 @@ h1{
 .seccionalerta {
     position:relative;
     top: -25%;
-    left: 25%;
+    left: 10%;
     display: flex;
     font-size: 10px;
     align-items: center;
@@ -154,7 +154,7 @@ h1{
     color: whitesmoke;
     font-style: italic;
     background: #141275;
-    width: 250px;
+    width: 20%;
     flex-direction: row;
     padding: 10px 10px;
 }
@@ -165,7 +165,6 @@ h1{
 }
 
 footer {
-   
     position: absolute;
     bottom: 0;
     width: 100%;
