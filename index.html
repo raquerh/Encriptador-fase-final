@@ -29,14 +29,14 @@
 
             <div class="cajaingreso">
                     <h2 class="titulomensaje">Mensaje</h2>
-                    <textarea class="ingreso" placeholder="Ingrese el texto aqui"></textarea>
+                    <textarea class="ingreso" id="ingreso" placeholder="Ingrese el texto aqui"></textarea>
             </div>
 
             <div class="button">
-                <input class="encriptar" type="submit" value="Encriptar">
-                <input class="desencriptar" type="submit" value="Desencriptar">
-                <input class="copiar" type="submit" value="Copiar">
-                <input class="pegar" type="submit" value="Pegar">
+                <input class="encriptar" type="submit" onclick="encriptar();"value="Encriptar">
+                <input class="desencriptar" type="submit" onclick="desencriptar()"value="Desencriptar">
+                <input class="copiar" type="submit" onclick="copiar();" value="Copiar">
+                <input class="pegar" type="submit" onclick="pegar();" value="Pegar">
             </div>
 
             <div class="cajaresultado">
@@ -59,6 +59,9 @@
         <p>Desarrollado por Raquel Rodriguez Herlein</p>
         <p>2024</p>
     </footer>
+
+    <script src="app.js"></script>
+
 </body>
 
 
