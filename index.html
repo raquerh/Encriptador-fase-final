@@ -3,6 +3,7 @@
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Encriptador de Texto</title>
@@ -10,17 +11,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
     <img class="fondo" src="imagenes/encriptador.jpg">
     <header>
+
         <div class="encabezado">
             <img class="logo" src="imagenes/Logo.png" alt="logo alura">
             <h1>- Encriptador Challenge ONE - </h1>
 
         </div>
+
     </header>
 
     <main>
@@ -28,13 +32,13 @@
         <section class="contenedor">
 
             <div class="cajaingreso">
-                    <h2 class="titulomensaje">Mensaje</h2>
-                    <textarea class="ingreso" id="ingreso" placeholder="Ingrese el texto aqui"></textarea>
+                <h2 class="titulomensaje">Mensaje</h2>
+                <textarea class="ingreso" id="ingreso" placeholder="Ingrese el texto aqui"></textarea>
             </div>
 
             <div class="button">
-                <input class="encriptar" type="submit" onclick="encriptar();"value="Encriptar">
-                <input class="desencriptar" type="submit" onclick="desencriptar()"value="Desencriptar">
+                <input class="encriptar" type="submit" onclick="encriptar();" value="Encriptar">
+                <input class="desencriptar" type="submit" onclick="desencriptar()" value="Desencriptar">
                 <input class="copiar" type="submit" onclick="copiar();" value="Copiar">
                 <input class="pegar" type="submit" onclick="pegar();" value="Pegar">
             </div>
@@ -44,7 +48,7 @@
                 <textarea type="text" id="resultado" class="resultado" readonly></textarea>
             </div>
 
-            
+
         </section>
 
         <div class="seccionalerta">
@@ -63,7 +67,5 @@
     <script src="app.js"></script>
 
 </body>
-
-
 
 </html>
