@@ -94,8 +94,7 @@ h1 {
 
 .ingreso:hover,
 .resultado:hover {
-    border-color: rgb(0, 119, 255);
-
+    border: 3px solid rgb(0, 119, 255);
 }
 
 .button {
@@ -157,7 +156,7 @@ h1 {
     justify-content: center;
     color: black;
     font-style: italic;
-    background-color: rgba(192, 208, 255, 0.8);
+    background-color: rgba(207, 213, 233, 0.8);
     flex-direction: row;
     margin: 1% 1%;
 }
@@ -200,11 +199,14 @@ footer {
     .copiar {
         margin-top: 1%;
     }
+
     .encriptar,
-.desencriptar, .copiar, .pegar{
-    width:fit-content ;
-    padding:1%
-}
+    .desencriptar,
+    .copiar,
+    .pegar {
+        width: fit-content;
+        padding: 1%
+    }
 
     .logo {
         display: none;
@@ -222,42 +224,43 @@ footer {
 
     }
 }
-    @media screen and (max-width: 480px) {
-        .contenedor {
-            flex-direction: column;
-        }
 
-        .cajaingreso,
-        .cajaresultado {
-            display: flex;
-            width: 100%;
-            margin: 0;
-            align-items: center;
-            justify-content: center;
-        }
+@media screen and (max-width: 480px) {
+    .contenedor {
+        flex-direction: column;
+    }
 
-        .button {
-            width: 100%;
-        }
+    .cajaingreso,
+    .cajaresultado {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
 
-        .copiar {
-            margin-top: 5%;
-        }
+    .button {
+        width: 100%;
+    }
+
+    .copiar {
+        margin-top: 5%;
+    }
 
 
-        .logo {
-            display: none;
-        }
+    .logo {
+        display: none;
+    }
 
-        .seccionalerta {
-            font-size: 8px;
-            height: 20%;
-
-        }
-
-        .footer {
-            height: 8%;
-        }
-
+    .seccionalerta {
+        font-size: 8px;
+        height: 20%;
 
     }
+
+    .footer {
+        height: 8%;
+    }
+
+
+}

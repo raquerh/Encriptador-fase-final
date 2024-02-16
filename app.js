@@ -26,7 +26,7 @@ function validarTexto(texto) {
 function encriptar() {
     // Obtener el texto ingresado
     let textoOriginal = document.querySelector('.ingreso').value;
-    
+
     if (!validarTexto(textoOriginal)) {
         alert('Ingrese solo letras minúsculas sin acentos ni caracteres especiales.');
         return;
@@ -46,7 +46,7 @@ function encriptar() {
 function desencriptar() {
     // Obtener el texto ingresado
     let textoEncriptado = document.querySelector('.ingreso').value;
-    
+
     if (!validarTexto(textoEncriptado)) {
         alert('Ingrese solo letras minúsculas sin acentos ni caracteres especiales.');
         return;
@@ -78,7 +78,7 @@ function copiar() {
 }
 
 function pegar() {
-    
+
     limpiaringreso();
 
     // variable ingreso= el area de ingreso
