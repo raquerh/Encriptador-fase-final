@@ -156,7 +156,7 @@ h1 {
     justify-content: center;
     color: black;
     font-style: italic;
-    background-color: rgba(207, 213, 233, 0.8);
+    background-color: rgba(223, 223, 223, 0.8);
     flex-direction: row;
     margin: 1% 1%;
 }
